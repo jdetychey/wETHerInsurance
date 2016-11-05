@@ -2,7 +2,7 @@ pragma solidity ^0.4.0;
 
 import "dev.oraclize.it/api.sol";
 contract Policy is usingOraclize {
-    bytes32 outcome
+    bytes32 outcome ;
 /* we only need an outcome to be tested in the child, location and date will
 hard coded at the deployment, the factory and user address aswell
 */
