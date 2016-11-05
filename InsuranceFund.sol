@@ -1,5 +1,9 @@
 pragma solidity ^0.4.4;
 
+/* the contract is funded a common ethereum scheeme
+see https://github.com/OpenZeppelin/zeppelin-solidity/blob/master/contracts/StandardToken.sol
+*/
+
 import "dev.oraclize.it/api.sol";
 import "Policy.sol";
 contract InsuranceFund {
